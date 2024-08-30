@@ -1,0 +1,11 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "Andromeda Italic Bordered",
+    "workbench.iconTheme": "vscode-icons",
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp"
+    }
+}

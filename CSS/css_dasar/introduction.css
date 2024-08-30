@@ -1,0 +1,118 @@
+/* ----------------------------------------------------------------------------------------------- */
+/* di line head html tulis <link rel="sheetstyle" href="style.css"> */
+/* selector : tag element dari doc html */
+/* deklarasi : atau isi dari selector */
+/* property : type dalam kolom deklarasi */
+/* value :  nilai dari property */
+/* {} : sebagai tempat untuk meletakkan Declaration (deklarasi) 
+    atau agar lebih mudah bisa kita sebut sebagai "perintah" kita 
+    tentang apa yang harus dimodifikasi oleh selector terhadap pola yang ingin kita modifikasi.*/
+
+/* contoh di html:
+    <DOCETYPE html>
+    <html>
+        <head>
+            <link rel="sheetstyle" href="style.css">
+        </head>
+        <body>
+            <selector>text</selector>
+        </body>
+    </html>
+    */
+
+/* contoh di css:
+    selector{
+        deklarasi;
+    } */
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* CSS Selector */
+
+/* * : universal selctor, selector yang akan mengaplikasikan ke semua konten */
+/* h1/p/.. : type selector, selector yang akan mengaplikasikan ke konten tertentu alias element di html */
+/* class : class selector, selector yang akan menghubungkan konten tertentu di html ke code class yang ada di css,
+class merupakan selector yang digunakan secara berulang-ulang di setiap halaman dan diawali . */
+/* id : id selector, selector yang akan menghubungkan konten tertentu di html ke code id yang ada di css,
+id merupakan selector yang digunakan sekali di setiap halaman dan diawalai # */
+
+/* > : chil selector (tanda kurung), selector yang memilih semua element yang merupakan anakan dari elemen yang di tentukan */
+/*   : decendant selector (spasi), selector yang memilih semua element yang merupakan cucuan dari elemen yang di tentukan */
+/* + : adjacent sibling selector (plus), selector yang memilih elemen yang berada tepat setelah elemen yang ditentukan atau berada langsung di bawahnya */
+/* ~ : general sibling selector (tilde), selector yang memilih semua element yang bersaudara dari elemen yang di tentukan */
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* CSS selector value */
+
+/* catatan :
+    biasanya digunakan dengan format sebagain berikut :
+    id.element.cssselectorvalue{
+     } */
+
+/* hover : untuk memberikan fitur dengan hanya menggerakkan kursor pada konten sehingga muncul beberapa fitur yang bisa dipilih */
+/* active : untuk memberikan fitur pada konten saat di click oleh kursor sehingga muncul fitur yang dimasukan; contoh color, dan lain-lain */
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* CSS property */
+
+/* font-family : untuk mengatur jenis font */
+/* font-size : untuk mengatur ukuran font; bisa menggunakan format kata, em (ukuran asli bawaan dari font), pixel, dan percent */
+/* font-weight : untuk mengatur type font; contoh normal, bold, dan lain-lain */
+/* font-style : untuk mengatur style font; contoh normal, underline, italic, dan lain-lain */
+/* text-decoration : untuk menambah style font tanpa mengganggu font weight atau font style; contoh normal, underline, italic, dan lain-lain */
+/* text-transform : untuk mengatur case font; contoh uppercase, lowercase, dan lain-lain */
+/* text-align : untuk mengatur alignment text; contoh left, right, center, justify dan lain-lain*/
+/* text-shadow : untuk menambahkan bayangan pada text; dengan format right-position (px/%), down-position (px/%), blur, color */
+/* word-spacing : untuk mengatur jarak spasi text; bisa menggunakan format em (ukuran asli bawaan dari font), pixel, dan percent */
+
+/* color : untuk memberikan warna; bisa menggunakan format kata, hsl code, hsla code, hex code, ataupun rgb code */
+/* background-color : untuk memberikan warna pada background; bisa menggunakan format kata, hsl code, hsla code, hex code, ataupun rgb code */
+
+/* padding : untuk memberikan batas jarak atas-kiri-kanan-bawah; format ukuran atas-kanan-bawah-kiri, atas kiri-kanan bawah, atas-bawah kiri-kanan, dan full */
+/* border : untuk memberikan kotak bingkai; format ukuran atas-kanan-bawah-kiri, atas kiri-kanan bawah, atas-bawah kiri-kanan, dan full */   
+/* margin : untuk memberikan kotak bingkai di luar border; format ukuran atas-kanan-bawah-kiri, atas kiri-kanan bawah, atas-bawah kiri-kanan, dan full */
+
+/* width : untuk mengatur lebar konten; bisa digunakan sebagai value; jika digunakan langusng sebagai property, maka output akan menjadi sebuah box  */
+/* min-width : untuk mengatur minimal lebar konten; bisa digunakan sebagai value; jika digunakan langusng sebagai property, maka output akan menjadi sebuah box  */
+/* max-width : untuk mengatur maximal lebar konten; bisa digunakan sebagai value; jika digunakan langusng sebagai property, maka output akan menjadi sebuah box  */
+/* height : untuk mengatur tinggi konten; bisa digunakan sebagai value; jika digunakan langusng sebagai property, maka output akan menjadi sebuah box  */
+/* min-height : untuk mengatur minimal tinggi konten; bisa digunakan sebagai value; jika digunakan langusng sebagai property, maka output akan menjadi sebuah box  */
+/* max-height : untuk mengatur maximal tinggi konten; bisa digunakan sebagai value; jika digunakan langusng sebagai property, maka output akan menjadi sebuah box  */
+/* overflow :  untuk mengatur konten yang terlalu besar atau melewati batas yang telah ditentukan untuk dimasukkan ke dalam suatu area; value dari (overflow) bisa mempengaruhi fungsi, seperti overflow:scroll maka akan ada fitur scroll pada fitur overflow tersebut */
+
+/* border-width : untuk memberikan ukuran terhadap border; format value = atas-kanan-bawah-kiri, atas kiri-kanan bawah, atas-bawah kiri-kanan, dan semuanya;
+bisa mengatur border mana yang inin di edit. contoh : border-top-width atau border-top-right-width */
+/* border-style : untuk memberikan style terhadap border; contoh solid, dotted, dash, dan lain-lain */
+/* border-color : untuk memberikan warna terhadap border */
+/* border-top/bottom/right/left : untuk mengatur bagian border tertentu */
+/* border-spacing : untuk mengatur ukuran space kosong di border */
+/* border-radius : untuk mengatur kelengkungan sudut border */
+
+/* display : untuk mengatur tampilnya suatu elemen; value = inline, block, inline-block, flex */
+/* justify-content : untuk posisi alignment dari sebuah konten */
+/* flex-wrap : untuk mendefinisikan bahwa elemen item di dalam container flexbox tidak harus disejajarkan dalam satu baris */
+
+/* list-style : untuk menentukan style dari marker/penanda alias nomor pada list */
+/* list-style-type : untuk menentukan style dari marker/penanda alias nomor pada list */
+/* list-style-position : untuk menentukan posisi dari marker/penanda alias nomor pada list, terutama list panjang atau list data description */
+
+/* background-repeat : untuk mengatur pengulangan terhadap backround */
+/* background-image : untuk menambahkan foto pada backround */
+/* background-size : untuk mengatur ukuran backround */
+/* background-position : untuk mengatur posisi backround */
+
+/* cursor : untuk mengatur style cursor */
+
+/* ----------------------------------------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------------------------------------- */
+
+body{
+    text-align: unset;
+}
+
+ 
